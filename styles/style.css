@@ -1,0 +1,255 @@
+body
+{
+
+    font-family:Arial, Helvetica, sans-serif;
+    background:  rgba(42,71,94,1.0) 12%;
+    padding: 0;
+    margin: 0;
+    margin:0;
+}
+
+p
+{
+    margin: 0;
+}
+
+.header
+{
+    background-color: #1b2838;
+    height: 60px;
+    margin-top: -20px;
+}
+
+.continer
+{
+    display: flex;
+    justify-content: center;
+}
+
+.flex
+{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 700px;
+    
+}
+
+.navbar-body
+{
+    display: flex;
+    height: 40px;
+    background-color: #1b2838; 
+    align-items: end;
+}
+
+.navbar-flex
+{
+    display: flex ;
+    margin-top: -20px;
+    flex: 1;
+    gap: 10px;
+    height: 20px;
+    background-color: #1b2838;
+    align-items: center;
+    justify-content: start;
+}
+
+.navbar-box
+{
+    
+    color: rgb(79, 148, 188);
+    font-size: 10px;
+    cursor: pointer;
+    padding: 5px 10px 10px 10px;
+
+}
+
+
+
+.navbar-box:nth-child(1)
+{
+    color: rgb(255,255,255);
+    background-color: #2a475e;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.navbar-box:hover
+{
+    color: rgb(255, 255, 255);
+}
+
+
+.top-section
+{
+    display: flex;
+    background-color: rgba( 0, 0, 0, 0.2 );
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    color: #c6d4df;
+    font-size: 11px;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+
+.top-section-button
+{
+    background-color: transparent;
+    color: #c6d4df;
+    border: 1px solid rgba(255,255,255,0.4);
+    border-radius: 2px;
+    margin-left: 5px;
+    font-size: 12px;
+    padding: 3px 11px 3px 11px;
+    cursor: pointer;
+
+}
+
+.top-section-button:hover
+{
+    border: 1px solid rgb(255,255,255);
+}
+
+.middle-section-body
+{
+    display: flex;
+    flex-direction: row;
+    height: 890px;
+
+}
+
+
+.products
+{
+    display: flex;
+    background-color: #1F3345;
+    height: 80px;
+    cursor: pointer;
+    width: 700px;
+    transition: color 0.15s , background-color 0.15s ;
+    margin-bottom: 5px;
+
+}
+
+
+
+.product-hovred
+{
+    color: black;
+    background-color: rgb(153,192,214);
+    padding-right: 40px;
+
+}
+
+
+.product-content
+{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.product-information
+{   
+    margin-right: 38px;
+}
+.icon-image
+{
+    height: 18px;
+    opacity: 0.3;
+}
+
+.product-title
+{
+    font-size: 15px;
+    color: #c7d5e0;
+}
+
+.product-types
+{
+    color: rgb(56, 73, 89);
+    font-size: 12px;
+}
+
+.product-discount
+{
+    background-color: #4c6b22;
+    color: #BEEE11;
+    border: none;
+    font-size: 13px;
+    padding: 6px 4px 6px 4px;
+    border-radius: 2px;
+
+}
+.product-discount-body
+{
+    display: flex;
+    width: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product-price
+{  
+    color: white;
+}
+
+.right-section
+{   
+    background: #99C0D6 ;
+    ;
+    padding: 19px ;
+    margin-left: -10px;
+}
+.product-prewvie-title
+{
+    color: #263645;
+    margin-bottom: 8px;
+    font-size: 21px;
+}
+
+.product-prewvie-status
+{
+    background-color: rgba( 38, 54, 69, 0.6);
+    padding: 5px 50px 5px 5px;
+    border-radius: 4px;
+    color: rgb(195,212,223);
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+.product-final-point
+{
+    color:#66C0F4 ;
+}
+
+.prewvie-types
+{
+    display: inline-block;
+    background-color: rgba( 38, 54, 69, 0.6);
+    border-radius: 4px;
+    color: rgb(195,212,223);
+    padding: 4px;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.image-grid
+{
+    display: grid;
+    justify-content: center;
+    row-gap: 10px;
+    margin-bottom: 40px;
+}
+
+.product-images-prewive
+{
+    height: 165px;
+}
+
+.focused{
+    color: black;
+}
+
