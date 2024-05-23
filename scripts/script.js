@@ -30,16 +30,16 @@ const productList = [
         ,
         types:['FPS','Multiplayer','Shooter','Action']
         ,
-        image0:"./prerview-images/call of duty1.jpg"
+        image0:"./assets/call of duty1.jpg"
         ,
         
-        image1:"./prerview-images/call of duty2.jpg"
+        image1:"./assets/call of duty2.jpg"
         ,
         
-        image2:"./prerview-images/call of duty3.jpg"
+        image2:"./assets/call of duty3.jpg"
         ,
         
-        image3:"./prerview-images/call of duty4.jpg"
+        image3:"./assets/call of duty4.jpg"
     }
     ,
     {
@@ -49,16 +49,16 @@ const productList = [
         ,
         types:['Survival', 'Shooter', 'Battle Royale', 'Multiplayer']
         ,
-        image0:"./prerview-images/battelgrounds1.jpg"
+        image0:"./assets/battelgrounds1.jpg"
         ,
                 
-        image1:"./prerview-images/battelgrounds2.jpg"
+        image1:"./assets/battelgrounds2.jpg"
         ,
                 
-        image2:"./prerview-images/battelgrounds3.jpg"
+        image2:"./assets/battelgrounds3.jpg"
         ,
                 
-        image3:"./prerview-images/battelgrounds4.jpg"
+        image3:"./assets/battelgrounds4.jpg"
     }
     ,   {
         name :"Counter-Strike 2" 
@@ -67,16 +67,16 @@ const productList = [
         ,
         types:['FPS', 'Shooter', 'Multiplayer', 'Competitive']
         ,
-        image0:"./prerview-images/counter strike1.jpg"
+        image0:"./assets/counter strike1.jpg"
         ,
                 
-        image1:"./prerview-images/counter strike2.jpg"
+        image1:"./assets/counter strike2.jpg"
         ,
                 
-        image2:"./prerview-images/counter strike3.jpg"
+        image2:"./assets/counter strike3.jpg"
         ,
                 
-        image3:"./prerview-images/counter strike4.jpg"
+        image3:"./assets/counter strike4.jpg"
     }
     ,   {
         name :"Farming Simulator 22" 
@@ -85,15 +85,15 @@ const productList = [
         ,
         types:['Advanture','Story Rich','Visual Novel','Action']
         ,
-        image0:"./prerview-images/farming simulator1.jpg"
+        image0:"./assets/farming simulator1.jpg"
         ,
                 
-        image1:"./prerview-images/farming simulator2.jpg"
+        image1:"./assets/farming simulator2.jpg"
         ,
                 
-        image2:"./prerview-images/farming simulator3.jpg"
+        image2:"./assets/farming simulator3.jpg"
         , 
-        image3:"./prerview-images/farming simulator4.jpg"
+        image3:"./assets/farming simulator4.jpg"
     }
 ]
 
